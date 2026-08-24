@@ -13,5 +13,11 @@ else
   exit 0
 fi
 
+echo "moving configuration files"
 
+cp -r ./.config/fish ~/.config/
+cp -r ./.config/kitty ~/.config/
+cp -r ./.config/hypr ~/.config/
+cp -r ./.config/waybar ~/.config/
+cp -r ./.config/nvim ~/.config/
 
