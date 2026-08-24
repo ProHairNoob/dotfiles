@@ -24,6 +24,7 @@ cp -r ./Pictures ~/Pictures
 
 read -p "Logout? <y/N> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
+then
 	pkill -u $USER
 fi
 
