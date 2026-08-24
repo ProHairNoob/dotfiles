@@ -11,8 +11,6 @@ then
 	makepkg -si 
 	yay -S bibata-cursor-theme-bin xembedsniproxy grimblast
 	cd ..
-else
-  exit 0
 fi
 
 echo "moving configuration files"
