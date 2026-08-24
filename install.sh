@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 sudo -v
-
-sudo pacman -Syu hyprland nvim waybar fish awww kitty tmux nemo grimblast rofi network-manager-applet hyprpolkitagent base-devel hyprlock gtk3 gtk4 qt6ct superfile zoxide 
+sudo pacman -Syu
+sudo pacman -Sy hyprland nvim waybar fish awww kitty tmux nemo grimblast rofi network-manager-applet hyprpolkitagent base-devel hyprlock gtk3 gtk4 qt6ct superfile zoxide 
 echo ""
 read -p "Install yay? <y/N> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
